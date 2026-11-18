@@ -1,0 +1,11 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+ "scripts": {
+  "start": "node server.js",
+  "dev": "concurrently \"cd backend && node server.js\" \"cd frontend && npm run dev\""
+},
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
